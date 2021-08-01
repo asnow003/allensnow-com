@@ -1,0 +1,32 @@
+.profile-image {
+    max-width: 75px;
+    min-width: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 102, 102);
+    margin-right: 5px;
+}
+.project-card {
+    width: 275px;
+    height: 100vh;
+    max-height: 315px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.project-card:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #91d5ff;
+}
+.project-card-meta {
+    height: 85px;
+}
+.link-card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.link-card:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #91d5ff;
+}
+.link-card-avatar {
+    margin-right: 5px;
+}
