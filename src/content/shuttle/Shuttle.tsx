@@ -2,7 +2,7 @@
 import { PageHeader, Tag, Button, Typography, Carousel, Image, Space } from 'antd';
 import './Shuttle.css';
 
-const { Paragraph, Title, Link, Text } = Typography;
+const { Paragraph, Title } = Typography;
 
 function Shuttle() {
     return (
@@ -18,16 +18,13 @@ function Shuttle() {
                         <Tag color="blue">Blender</Tag>
                     </>
                 }>
-
                 <Paragraph>
                     Created this project to help me learn 3D modeling and game development.  I made the game content/models using Blender and then used those in developing a game in Unity for mobile and desktop.
                 </Paragraph>
-
                 <Title level={5}>Blender Modeling</Title>
                 <Paragraph>Using blender I created one of the main assets of the game...the shuttle.  I picked one of the simple shuttles from Star Trek: The Next Generation since I was just learning how to use blender and didn't want to go too crazy.  I did the modeling, texturing, and rigging (animate the doors opening).</Paragraph>
-
                 <Paragraph>
-                <Title level={5}>Building the shuttle in Blender</Title>
+                    <Title level={5}>Building the shuttle in Blender</Title>
                     <Carousel autoplay>
                         <Image src="../images/Shuttle15_Wire.png" />
                         <Image src="../images/Shuttle15.png" />
@@ -48,8 +45,8 @@ function Shuttle() {
                 <Title level={5}>Download the game demo:</Title>
                 <Paragraph>
                     <Space>
-                    <Button target="_blank" href="media/ShuttleGame_OSX.zip">Mac OSX</Button> 
-                    <Button target="_blank" href="media/ShuttleGame_Win10.zip">Windows</Button></Space>
+                        <Button target="_blank" href="media/ShuttleGame_OSX.zip">Mac OSX</Button>
+                        <Button target="_blank" href="media/ShuttleGame_Win10.zip">Windows</Button></Space>
                 </Paragraph>
 
                 <Title level={5}>Game Play Instructions</Title>
@@ -61,7 +58,6 @@ function Shuttle() {
                     <Image src="../images/Shuttle_Game.png" />
                 </Paragraph>
             </PageHeader>
-
         </>
     )
 }

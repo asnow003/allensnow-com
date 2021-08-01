@@ -1,8 +1,8 @@
 
-import { PageHeader, Tag, Button, Typography, Carousel, Image, Space } from 'antd';
+import { PageHeader, Tag, Button, Typography, Image, Space } from 'antd';
 import './Solitaire.css';
 
-const { Paragraph, Title, Link, Text } = Typography;
+const { Paragraph } = Typography;
 
 function Solitaire() {
     return (
@@ -21,10 +21,10 @@ function Solitaire() {
                     Experimental project to try and build a game engine using the HTML canvas.  Built the basics for the game engine and this sample game to test all the areas like the gaming loop, collisions, and other game events.
                 </Paragraph>
                 <Paragraph>
-                <Space>
-                    <Button target="_blank" href="https://asnow003.github.io/teams-solitaire/">Demo</Button>
-                    <Button target="_blank" href="https://github.com/asnow003/teams-solitaire">GitHub</Button>
-                </Space></Paragraph>
+                    <Space>
+                        <Button target="_blank" href="https://asnow003.github.io/teams-solitaire/">Demo</Button>
+                        <Button target="_blank" href="https://github.com/asnow003/teams-solitaire">GitHub</Button>
+                    </Space></Paragraph>
                 <Paragraph>
                     One of the main goals was to try and create a light weight game engine that could easily be used to create basic 2D games that would work in Microsoft Teams.
                 </Paragraph>

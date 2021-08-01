@@ -1,6 +1,6 @@
-import { PageHeader, Tag, Button, Typography, Carousel, Image, Space } from 'antd';
+import { PageHeader, Tag, Button, Typography, Carousel, Image } from 'antd';
 import './Klusters.css';
-const { Paragraph, Title, Link, Text } = Typography;
+const { Paragraph } = Typography;
 
 
 function Klusters() {
@@ -37,8 +37,6 @@ function Klusters() {
                 <Paragraph>
                     This has been a pet project of mine for a few years which started as an app I wanted to catalog some collectables of mine but couldn't find something that was customizable enough. Finally, getting it out there and hope you like it. Please feel free to go to the support site and use the discussion board listed or email me with issues you are seeing, features you would like, or issues/bugs.
                 </Paragraph>
-
-
             </PageHeader>
         </>
     )

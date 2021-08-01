@@ -1,9 +1,8 @@
-import { PageHeader, Tag, Button, Typography, Carousel, Image, Space, Avatar, Card, Row, Col, Divider } from 'antd';
-import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
-import { LinkedinOutlined, GithubOutlined, TwitterOutlined, MailOutlined, PaperClipOutlined } from '@ant-design/icons';
+import { PageHeader, Typography, Image, Space, Avatar, Card, Divider } from 'antd';
+import { LinkedinOutlined, GithubOutlined, TwitterOutlined, PaperClipOutlined } from '@ant-design/icons';
 import './About.css';
 
-const { Paragraph, Title, Link, Text } = Typography;
+const { Paragraph, Title, Link } = Typography;
 const { Meta } = Card;
 
 function About() {
@@ -40,7 +39,7 @@ function About() {
                                     title="Shuttle Run Game"
                                     description="Created this project to help me learn 3D modeling and game development"
                                 />
-                                <Image preview={false} src="../images/Placehold.png" />
+                                <Image preview={false} src="../images/Tile_Shuttle.png" />
                             </Space>
                         </Card>
                     </Link>
@@ -55,7 +54,7 @@ function About() {
                                     title="Solitaire"
                                     description="Experimental project to try and build a game engine using the HTML canvas"
                                 />
-                                <Image preview={false} src="../images/Placehold.png" />
+                                <Image preview={false} src="../images/Tile_Solitaire.png" />
                             </Space>
                         </Card>
                     </Link>
@@ -70,7 +69,7 @@ function About() {
                                     title="Klusters"
                                     description="Mobile app for used to keep up to date with latest iOS / Swift"
                                 />
-                                <Image preview={false} src="../images/Placehold.png" />
+                                <Image preview={false} src="../images/Tile_Klusters.png" />
                             </Space>
                         </Card>
                     </Link>
@@ -85,13 +84,11 @@ function About() {
                                     title="Image refiner component"
                                     description="Open source iOS component for in app image editing"
                                 />
-                                <Image preview={false} src="../images/Placehold.png" />
+                                <Image preview={false} src="../images/Tile_Refiner.png" />
                             </Space>
                         </Card>
                     </Link>
                 </Space>
-
-
                 <Divider orientation="left" >Links</Divider>
                 <Space>
                     <Space>
@@ -127,15 +124,9 @@ function About() {
                         </Link>
                     </Space>
                 </Space>
-
             </PageHeader>
         </>
     )
-
-
-
 }
-
-
 
 export default About;

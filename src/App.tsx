@@ -1,18 +1,13 @@
-import React from 'react';
-
-import { Layout, Menu, Typography } from 'antd';
-
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
+import { Layout } from 'antd';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Shuttle from './content/shuttle/Shuttle';
 import './App.css';
 import About from './content/about/About';
 import Solitaire from './content/solitaire/Solitaire';
 import Klusters from './content/klusters/Klusters';
 import ImgRefiner from './content/imgRefiner/ImgRefiner';
-const { SubMenu } = Menu;
-const { Header, Content, Sider } = Layout;
-const { Paragraph, Title, Text } = Typography;
+
+const { Content, Sider } = Layout;
 
 function App() {
   return (
@@ -24,14 +19,12 @@ function App() {
           position: 'fixed',
           left: 0,
         }}>
-
         <Layout>
-        
           <Sider
             className="site-layout-side"
             breakpoint="xl"
             collapsedWidth="1">
-            </Sider>
+          </Sider>
           <Content
             className="site-layout-content"
             style={{
@@ -52,12 +45,11 @@ function App() {
             </div>
           </Content>
           <Sider breakpoint="xl"
-           className="site-layout-side"
+            className="site-layout-side"
             collapsedWidth="1"></Sider>
         </Layout>
       </Layout>
     </Router>
-
   );
 }
 
