@@ -36,7 +36,7 @@ function Shuttle() {
                 <Paragraph>
                     <Title level={5}>Rendered video scene with Blender assets</Title>
                     <video controls width="100%">
-                        <source src="../media/shuttle.mp4" />
+                        <source src="https://github.com/asnow003/allensnow-com/blob/gh-pages/media/Shuttle.mp4?raw=true" />
                     </video>
                 </Paragraph>
                 <Title level={5}>Unity Shuttle Game</Title>

@@ -1,15 +1,15 @@
 import { PageHeader, Typography, Image, Space, Avatar, Card, Divider } from 'antd';
 import { LinkedinOutlined, GithubOutlined, TwitterOutlined, PaperClipOutlined } from '@ant-design/icons';
+import { Link } from "react-router-dom";
 import './About.css';
 
-const { Paragraph, Title, Link } = Typography;
+const { Paragraph, Title } = Typography;
 const { Meta } = Card;
 
 function About() {
     return (
         <>
             <PageHeader>
-
                 <Paragraph>
                     <Space>
                         <Image className="profile-image" src="../images/me.jpeg" preview={false} />
@@ -26,7 +26,7 @@ function About() {
                 </Paragraph>
                 <Divider orientation="left" >Personal Projects</Divider>
                 <Space wrap>
-                    <Link href="/projects/shuttle">
+                    <Link to="/projects/shuttle">
                         <Card
                             className="project-card"
                             title="Game (Blender/Unity)">
@@ -43,7 +43,7 @@ function About() {
                             </Space>
                         </Card>
                     </Link>
-                    <Link href="/projects/solitaire">
+                    <Link to="/projects/solitaire">
                         <Card className="project-card" title="Game (Web)">
                             <Space direction="vertical" >
                                 <Meta
@@ -58,7 +58,7 @@ function About() {
                             </Space>
                         </Card>
                     </Link>
-                    <Link href="/projects/klusters">
+                    <Link to="/projects/klusters">
                         <Card className="project-card" title="Mobile app">
                             <Space direction="vertical" >
                                 <Meta
@@ -73,7 +73,7 @@ function About() {
                             </Space>
                         </Card>
                     </Link>
-                    <Link href="/projects/imgrefiner">
+                    <Link to="/projects/imgrefiner">
                         <Card className="project-card" title="Open source">
                             <Space direction="vertical" >
                                 <Meta
@@ -92,36 +92,36 @@ function About() {
                 <Divider orientation="left" >Links</Divider>
                 <Space>
                     <Space>
-                        <Link href="../media/Resume.pdf" target="_blank">
+                        <Typography.Link href="../media/Resume.pdf" target="_blank">
                             <Card className="link-card">
                                 <Avatar className="link-card-avatar" size="large" icon={<PaperClipOutlined />} />
                                 Resume
                             </Card>
-                        </Link>
+                        </Typography.Link>
                     </Space>
                     <Space>
-                        <Link href="https://github.com/asnow003" target="_blank">
+                        <Typography.Link href="https://github.com/asnow003" target="_blank">
                             <Card className="link-card">
                                 <Avatar className="link-card-avatar" size="large" icon={<GithubOutlined />} />
                                 GitHub
                             </Card>
-                        </Link>
+                        </Typography.Link>
                     </Space>
                     <Space>
-                        <Link href="https://www.linkedin.com/in/allensnow/" target="_blank">
+                        <Typography.Link href="https://www.linkedin.com/in/allensnow/" target="_blank">
                             <Card className="link-card">
                                 <Avatar className="link-card-avatar" size="large" icon={<LinkedinOutlined />} />
                                 LinkedIn
                             </Card>
-                        </Link>
+                        </Typography.Link>
                     </Space>
                     <Space>
-                        <Link href="https://twitter.com/asnow003" target="_blank">
+                        <Typography.Link href="https://twitter.com/asnow003" target="_blank">
                             <Card className="link-card">
                                 <Avatar className="link-card-avatar" size="large" icon={<TwitterOutlined />} />
                                 Twitter
                             </Card>
-                        </Link>
+                        </Typography.Link>
                     </Space>
                 </Space>
             </PageHeader>
