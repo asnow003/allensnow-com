@@ -24,106 +24,110 @@ function About() {
                         </Paragraph>
                     </Paragraph>
                 </Paragraph>
-                <Divider orientation="left" >Personal Projects</Divider>
-                <Space wrap>
-                    <Link to="/projects/shuttle">
-                        <Card
-                            className="project-card"
-                            title="Game (Blender/Unity)">
-                            <Space direction="vertical" >
-                                <Meta
-                                    className="project-card-meta"
-                                    avatar={
-                                        <Avatar src="../images/Icon_Shuttle.png" />
-                                    }
-                                    title="Shuttle Run Game"
-                                    description="Created this project to help me learn 3D modeling and game development"
-                                />
-                                <Image preview={false} src="../images/Tile_Shuttle.png" />
-                            </Space>
-                        </Card>
-                    </Link>
-                    <Link to="/projects/solitaire">
-                        <Card className="project-card" title="Game (Web)">
-                            <Space direction="vertical" >
-                                <Meta
-                                    className="project-card-meta"
-                                    avatar={
-                                        <Avatar src="../images/Icon_Solitaire.png" />
-                                    }
-                                    title="Solitaire"
-                                    description="Experimental project to try and build a game engine using the HTML canvas"
-                                />
-                                <Image preview={false} src="../images/Tile_Solitaire.png" />
-                            </Space>
-                        </Card>
-                    </Link>
-                    <Link to="/projects/klusters">
-                        <Card className="project-card" title="Mobile app">
-                            <Space direction="vertical" >
-                                <Meta
-                                    className="project-card-meta"
-                                    avatar={
-                                        <Avatar src="../images/Icon_Klusters.png" />
-                                    }
-                                    title="Klusters"
-                                    description="Mobile app for used to keep up to date with latest iOS / Swift"
-                                />
-                                <Image preview={false} src="../images/Tile_Klusters.png" />
-                            </Space>
-                        </Card>
-                    </Link>
-                    <Link to="/projects/imgrefiner">
-                        <Card className="project-card" title="Open source">
-                            <Space direction="vertical" >
-                                <Meta
-                                    className="project-card-meta"
-                                    avatar={
-                                        <Avatar src="../images/Icon_Refiner.png" />
-                                    }
-                                    title="Image refiner component"
-                                    description="Open source iOS component for in app image editing"
-                                />
-                                <Image preview={false} src="../images/Tile_Refiner.png" />
-                            </Space>
-                        </Card>
-                    </Link>
-                </Space>
-                <Divider orientation="left" >Links</Divider>
-                <Space>
+                <Paragraph>
+                    <Divider>Links</Divider>
                     <Space>
-                        <Typography.Link href="../media/Resume.pdf" target="_blank">
-                            <Card className="link-card">
-                                <Avatar className="link-card-avatar" size="large" icon={<PaperClipOutlined />} />
-                                Resume
-                            </Card>
-                        </Typography.Link>
+                        <Space>
+                            <Typography.Link href="../media/Resume.pdf" target="_blank">
+                                <Card className="link-card">
+                                    <Avatar className="link-card-avatar" size="large" icon={<PaperClipOutlined />} />
+                                    Resume
+                                </Card>
+                            </Typography.Link>
+                        </Space>
+                        <Space>
+                            <Typography.Link href="https://github.com/asnow003" target="_blank">
+                                <Card className="link-card">
+                                    <Avatar className="link-card-avatar" size="large" icon={<GithubOutlined />} />
+                                    GitHub
+                                </Card>
+                            </Typography.Link>
+                        </Space>
+                        <Space>
+                            <Typography.Link href="https://www.linkedin.com/in/allensnow/" target="_blank">
+                                <Card className="link-card">
+                                    <Avatar className="link-card-avatar" size="large" icon={<LinkedinOutlined />} />
+                                    LinkedIn
+                                </Card>
+                            </Typography.Link>
+                        </Space>
+                        <Space>
+                            <Typography.Link href="https://twitter.com/asnow003" target="_blank">
+                                <Card className="link-card">
+                                    <Avatar className="link-card-avatar" size="large" icon={<TwitterOutlined />} />
+                                    Twitter
+                                </Card>
+                            </Typography.Link>
+                        </Space>
                     </Space>
-                    <Space>
-                        <Typography.Link href="https://github.com/asnow003" target="_blank">
-                            <Card className="link-card">
-                                <Avatar className="link-card-avatar" size="large" icon={<GithubOutlined />} />
-                                GitHub
+                </Paragraph>
+                <Paragraph>
+                    <Divider>Personal Projects</Divider>
+                    <Space wrap>
+                        <Link to="/projects/shuttle">
+                            <Card
+                                className="project-card"
+                                title="Game (Blender/Unity)">
+                                <Space direction="vertical" >
+                                    <Meta
+                                        className="project-card-meta"
+                                        avatar={
+                                            <Avatar src="../images/Icon_Shuttle.png" />
+                                        }
+                                        title="Shuttle Run Game"
+                                        description="Created this project to help me learn 3D modeling and game development"
+                                    />
+                                    <Image preview={false} src="../images/Tile_Shuttle.png" />
+                                </Space>
                             </Card>
-                        </Typography.Link>
-                    </Space>
-                    <Space>
-                        <Typography.Link href="https://www.linkedin.com/in/allensnow/" target="_blank">
-                            <Card className="link-card">
-                                <Avatar className="link-card-avatar" size="large" icon={<LinkedinOutlined />} />
-                                LinkedIn
+                        </Link>
+                        <Link to="/projects/solitaire">
+                            <Card className="project-card" title="Game (Web)">
+                                <Space direction="vertical" >
+                                    <Meta
+                                        className="project-card-meta"
+                                        avatar={
+                                            <Avatar src="../images/Icon_Solitaire.png" />
+                                        }
+                                        title="Solitaire"
+                                        description="Experimental project to try and build a game engine using the HTML canvas"
+                                    />
+                                    <Image preview={false} src="../images/Tile_Solitaire.png" />
+                                </Space>
                             </Card>
-                        </Typography.Link>
-                    </Space>
-                    <Space>
-                        <Typography.Link href="https://twitter.com/asnow003" target="_blank">
-                            <Card className="link-card">
-                                <Avatar className="link-card-avatar" size="large" icon={<TwitterOutlined />} />
-                                Twitter
+                        </Link>
+                        <Link to="/projects/klusters">
+                            <Card className="project-card" title="Mobile app">
+                                <Space direction="vertical" >
+                                    <Meta
+                                        className="project-card-meta"
+                                        avatar={
+                                            <Avatar src="../images/Icon_Klusters.png" />
+                                        }
+                                        title="Klusters"
+                                        description="Mobile app for used to keep up to date with latest iOS / Swift"
+                                    />
+                                    <Image preview={false} src="../images/Tile_Klusters.png" />
+                                </Space>
                             </Card>
-                        </Typography.Link>
+                        </Link>
+                        <Link to="/projects/imgrefiner">
+                            <Card className="project-card" title="Open source">
+                                <Space direction="vertical" >
+                                    <Meta
+                                        className="project-card-meta"
+                                        avatar={
+                                            <Avatar src="../images/Icon_Refiner.png" />
+                                        }
+                                        title="Image refiner component"
+                                        description="Open source iOS component for in app image editing"
+                                    />
+                                    <Image preview={false} src="../images/Tile_Refiner.png" />
+                                </Space>
+                            </Card>
+                        </Link>
                     </Space>
-                </Space>
+                </Paragraph>
             </PageHeader>
         </>
     )

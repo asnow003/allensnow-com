@@ -2,7 +2,7 @@
 import { PageHeader, Tag, Button, Typography, Carousel, Image, Space } from 'antd';
 import './Shuttle.css';
 
-const { Paragraph, Title } = Typography;
+const { Paragraph, Title, Link } = Typography;
 
 function Shuttle() {
     return (
@@ -19,18 +19,19 @@ function Shuttle() {
                     </>
                 }>
                 <Paragraph>
-                    Created this project to help me learn 3D modeling and game development.  I made the game content/models using Blender and then used those in developing a game in Unity for mobile and desktop.
+                    Created this project to help me learn 3D modeling and game development.  I made the game content/models using <Link target="_blank" href="https://www.blender.org/">Blender</Link> and then used those in developing a game in <Link target="_blank" href="https://unity.com/">Unity</Link> for mobile and desktop.
                 </Paragraph>
                 <Title level={5}>Blender Modeling</Title>
                 <Paragraph>Using blender I created one of the main assets of the game...the shuttle.  I picked one of the simple shuttles from Star Trek: The Next Generation since I was just learning how to use blender and didn't want to go too crazy.  I did the modeling, texturing, and rigging (animate the doors opening).</Paragraph>
                 <Paragraph>
                     <Title level={5}>Building the shuttle in Blender</Title>
                     <Carousel autoplay>
+                    <Image src="../images/Shuttle15_Design1.png" />
+                        <Image src="../images/Shuttle15_Design2.png" />
+                        <Image src="../images/Shuttle15_Design3.png" />
                         <Image src="../images/Shuttle15_Wire.png" />
                         <Image src="../images/Shuttle15.png" />
                         <Image src="../images/Shuttle15_Space.png" />
-                        <Image src="../images/Shuttle15_Design1.jpg" />
-                        <Image src="../images/Shuttle15_Design2.jpg" />
                     </Carousel>
                 </Paragraph>
                 <Paragraph>
@@ -45,8 +46,8 @@ function Shuttle() {
                 <Title level={5}>Download the game demo:</Title>
                 <Paragraph>
                     <Space>
-                        <Button target="_blank" href="media/ShuttleGame_OSX.zip">Mac OSX</Button>
-                        <Button target="_blank" href="media/ShuttleGame_Win10.zip">Windows</Button></Space>
+                        <Button target="_blank" href="media/ShuttleRunMac.zip">Mac OSX</Button>
+                        <Button target="_blank" href="media/ShuttleRunPC.zip">Windows</Button></Space>
                 </Paragraph>
 
                 <Title level={5}>Game Play Instructions</Title>

@@ -23,9 +23,9 @@ function Klusters() {
                     <Button target="_blank" href="https://itunes.apple.com/us/app/klusters/id1244555430?mt=8">iOS App Store</Button></Paragraph>
                 <Paragraph>
                     <Carousel autoplay>
-                        <Image src="../images/Klusters.png" />
-                        <Image src="../images/Klusters1.png" />
-                        <Image src="../images/Klusters2.png" />
+                        <Image preview={false} src="../images/Klusters.png" />
+                        <Image preview={false} src="../images/Klusters1.png" />
+                        <Image preview={false} src="../images/Klusters2.png" />
                     </Carousel>
                 </Paragraph>
                 <Paragraph>

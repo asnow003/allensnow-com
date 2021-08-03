@@ -1,4 +1,4 @@
-import { PageHeader, Tag, Button, Typography, Carousel, Image, Space } from 'antd';
+import { PageHeader, Tag, Button, Typography, Image, Space } from 'antd';
 import './ImgRefiner.css';
 const { Paragraph } = Typography;
 
@@ -24,13 +24,13 @@ function ImgRefiner() {
                         <Button target="_blank" href="https://github.com/asnow003/iOSImageRefiner">Github</Button>
                         <Button target="_blank" href="https://cocoapods.org/pods/iOSImageRefiner">Cocoapods</Button>
                     </Space></Paragraph>
-                <Paragraph style={{ maxWidth: '300px' }}>
-                    <Carousel autoplay>
+                <Paragraph>
+                    <Space>
                         <Image src="https://raw.githubusercontent.com/asnow003/iOSImageRefiner/master/docs/ImageEdit1.png" />
                         <Image src="https://raw.githubusercontent.com/asnow003/iOSImageRefiner/master/docs/ImageEdit2.png" />
                         <Image src="https://raw.githubusercontent.com/asnow003/iOSImageRefiner/master/docs/ImageEdit3.png" />
                         <Image src="https://raw.githubusercontent.com/asnow003/iOSImageRefiner/master/docs/ImageEdit4.png" />
-                    </Carousel>
+                    </Space>
                 </Paragraph>
             </PageHeader>
         </>

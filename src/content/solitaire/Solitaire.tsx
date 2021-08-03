@@ -29,7 +29,7 @@ function Solitaire() {
                     One of the main goals was to try and create a light weight game engine that could easily be used to create basic 2D games that would work in Microsoft Teams.
                 </Paragraph>
                 <Paragraph>
-                    <Image src="../images/Solitaire.png" />
+                    <Image preview={false} src="../images/Solitaire.png" />
                 </Paragraph>
             </PageHeader>
         </>
