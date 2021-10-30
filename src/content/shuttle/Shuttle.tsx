@@ -21,7 +21,7 @@ function Shuttle() {
                 <Paragraph>
                     Created this project to help me learn 3D modeling and game development.  I made the game content/models using <Link target="_blank" href="https://www.blender.org/">Blender</Link> and then used those in developing a game in <Link target="_blank" href="https://unity.com/">Unity</Link> for mobile and desktop.
                 </Paragraph>
-                <Title level={5}>Blender Modeling</Title>
+                <Title level={4}>Blender Modeling</Title>
                 <Paragraph>Using blender I created one of the main assets of the game...the shuttle.  I picked one of the simple shuttles from Star Trek: The Next Generation since I was just learning how to use blender and didn't want to go too crazy.  I did the modeling, texturing, and rigging (animate the doors opening).</Paragraph>
                 <Paragraph>
                     <Title level={5}>Building the shuttle in Blender</Title>
@@ -40,13 +40,13 @@ function Shuttle() {
                         <source src="https://github.com/asnow003/allensnow-com/blob/gh-pages/media/Shuttle.mp4?raw=true" />
                     </video>
                 </Paragraph>
-                <Title level={5}>Unity Shuttle Game</Title>
+                <Title level={4}>Unity Shuttle Game</Title>
                 <Paragraph>Using the shuttle model and a few other small ones I created along with a few free items from the Unity store I was able to create a game using Unity 3D.  Download a demo of the game below.  This is not intended for sale or wide distribution...it was only created as a learning project.  All of the Star Trek names and sounds are copyright of Paramount.</Paragraph>
 
                 <Title level={5}>Download the game demo:</Title>
                 <Paragraph>
                     <Space>
-                        <Button target="_blank" href="media/ShuttleRunMac.zip">Mac OSX</Button>
+                        <Button target="_blank" href="https://github.com/asnow003/allensnow-com/blob/gh-pages/media/ShuttleRunMac.zip?raw=true">Mac OSX</Button>
                         <Button target="_blank" href="media/ShuttleRunPC.zip">Windows</Button></Space>
                 </Paragraph>
 
@@ -57,6 +57,12 @@ function Shuttle() {
                 </Paragraph>
                 <Paragraph>
                     <Image src="../images/Shuttle_Game.png" />
+                </Paragraph>
+                <Paragraph>
+                    <Title level={5}>Gameplay footage</Title>
+                    <video controls width="100%">
+                        <source src="https://s3.amazonaws.com/www.allensnow.com/ShuttleRunGamePlay.mp4" />
+                    </video>
                 </Paragraph>
             </PageHeader>
         </>

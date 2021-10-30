@@ -6,6 +6,7 @@ import About from './content/about/About';
 import Solitaire from './content/solitaire/Solitaire';
 import Klusters from './content/klusters/Klusters';
 import ImgRefiner from './content/imgRefiner/ImgRefiner';
+import Island from './content/island/Island';
 
 const { Content, Sider } = Layout;
 
@@ -42,6 +43,7 @@ function App() {
               <Route path="/projects/solitaire" component={Solitaire} />
               <Route path="/projects/klusters" component={Klusters} />
               <Route path="/projects/imgrefiner" component={ImgRefiner} />
+              <Route path="/projects/island" component={Island} />
             </div>
           </Content>
           <Sider breakpoint="xl"

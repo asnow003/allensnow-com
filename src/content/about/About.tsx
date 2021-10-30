@@ -96,6 +96,23 @@ function About() {
                                 </Space>
                             </Card>
                         </Link>
+                        <Link to="/projects/island">
+                            <Card
+                                className="project-card"
+                                title="Game (Unity)">
+                                <Space direction="vertical" >
+                                    <Meta
+                                        className="project-card-meta"
+                                        avatar={
+                                            <Avatar src="../images/Placehold.png" />
+                                        }
+                                        title="Teams Island"
+                                        description="Microsoft Teams collaberative social game"
+                                    />
+                                    <Image preview={false} src="../images/Placehold.png" />
+                                </Space>
+                            </Card>
+                        </Link>
                         <Link to="/projects/klusters">
                             <Card className="project-card" title="Mobile app">
                                 <Space direction="vertical" >
